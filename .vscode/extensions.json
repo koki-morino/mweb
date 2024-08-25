@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "dart-code.flutter",
+        "golang.go",
+        "hashicorp.hcl",
+        "hashicorp.terraform",
+        "ms-azuretools.vscode-docker"
+    ]
+}

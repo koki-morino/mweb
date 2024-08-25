@@ -1,0 +1,17 @@
+syntax = "proto3";
+package memkept;
+
+option go_package = "protos/";
+
+import "action.proto";
+import "todo.proto";
+import "theme_mode.proto";
+
+message Message {
+    Action action = 1;
+
+    // Key is ID of todo.
+    map<string, Todo> todos = 2;
+
+    ThemeMode themeMode = 3;
+}
