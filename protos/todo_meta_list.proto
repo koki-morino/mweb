@@ -1,0 +1,10 @@
+syntax = "proto3";
+package memkept;
+
+option go_package = "protos/";
+
+import "todo_meta.proto";
+
+message TodoMetaList {
+    repeated TodoMeta todoMetaList = 1;
+}

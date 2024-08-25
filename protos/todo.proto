@@ -1,0 +1,14 @@
+syntax = "proto3";
+package memkept;
+
+option go_package = "protos/";
+
+message Todo {
+    // Deleted fields
+    reserved 1, 3;
+    reserved "id", "description";
+
+    string uuidv4 = 5;
+    string title = 2;
+    bool isCompleted = 4;
+}

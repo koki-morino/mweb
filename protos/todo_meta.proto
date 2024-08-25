@@ -1,0 +1,8 @@
+syntax = "proto3";
+package memkept;
+
+option go_package = "protos/";
+
+message TodoMeta {
+    int64 updatedAt = 1;
+}

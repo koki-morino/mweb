@@ -1,0 +1,5 @@
+# Use recommended rules.
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
