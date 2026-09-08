@@ -1,4 +1,8 @@
 # Use recommended rules.
+analyzer:
+  exclude:
+    - build/**
+    - web/**
 include: package:flutter_lints/flutter.yaml
 
 linter:
